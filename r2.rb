@@ -1,13 +1,13 @@
-puts "company email generator"
-print "name: "
+puts 'company email generator'
+print 'name: '
 name = gets.chomp
-print "Last name: "
+print 'Last name: '
 lastname = gets.chomp
-print "company: "
+print 'company: '
 company = gets.chomp
 
-email = ""
-email << name.downcase << lastname.downcase << "@" << company.downcase << ".com"
+email = ''
+email << name.downcase << lastname.downcase << '@' << company.downcase << '.com'
 # email << lastname
 # email << "@"
 # email << company
