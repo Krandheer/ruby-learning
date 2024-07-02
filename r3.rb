@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # conditionals in ruby
 
 a = 5
@@ -19,19 +21,19 @@ end
 
 # loops
 puts 'while looping'
-i = 1
-while i < 5
-  puts i
-  i += 1
+j = 1
+while j < 5
+  puts j
+  j += 1
 end
 
 puts 'for looping'
-for i in 1..5 do
+(1..5).each do |i|
   puts i
 end
 
 animal = %w[lion dear goat]
-for ani in animal
+animal.each do |ani|
   puts ani
 end
 
